@@ -1,30 +1,22 @@
-@font-face{
-font-family:'Black';
-src: url('../cuadro/fonts/CampanaScript_PERSONAL_USE_ONLY.otf')
-}
-@font-face{
-    font-family:'Martisan';
-    src: url('../cuadro/fonts/MatisanScript_PERSONAL_USE_ONLY.otf');
-    }
-    @font-face{
-        font-family:'Catalina';
-        src: url('../cuadro/fonts/Catalina.ttf');
-        }
+
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 h1{
-    font-family:'Black', sans-serif;
-    font-size: 900%;
+    font-family:'Salsa', sans-serif;
+    font-size: 600%;
     font-weight: lighter;
     text-align: center;
     display:block;
     padding:1%;
     color:#ea7b62;
-    text-shadow:0 0 2px #f2e74c, 0 0 2px chocolate;
+    text-shadow:0 0 3px #f2e74c, 0 0 2px chocolate;
     margin-block-start: 0%;
     margin-block-end: 0%;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-#gato{
+#canape{
     display:flow-root;
     margin: 1% auto;
     padding: 1%;
@@ -37,19 +29,19 @@ h1{
 }
 h2{
     display: block;
-    font-family:'Catalina', sans-serif;
+    font-family:'Leckerli One', sans-serif;
     font-size: 700%;
     margin-block-start: 0%;
     margin-block-end: 0%;
     margin-inline-start: 0%;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: lighter;
     text-align: center;
     color:#430e02;
 }
 h3{
     display: block;
-    font-family:sans-serif;
+    font-family:'Gowun Batang', sans-serif;
     font-size: 200%;
     margin-block-start: 1%;
     margin-block-end: 5%;
