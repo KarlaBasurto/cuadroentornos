@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 h1{
     font-family:'Leckerli One', sans-serif;
@@ -9,8 +10,8 @@ h1{
     text-align: center;
     display:block;
     padding:1%;
-    color:#3b1911;
-    text-shadow:0 0 4px #e99144, 0 0 3px chocolate;
+    color:#050116;
+    text-shadow:0 0 4px #12ce80, 0 0 3px rgb(10, 209, 139);
     margin-block-start: 0%;
     margin-block-end: 0%;
     margin-inline-start: 0px;
@@ -30,27 +31,46 @@ h1{
       10px 5px 5px    rgba(0,0,0,0.05),
       20px 20px 20px rgba(0,0,0,0.1);
 }
+
 h2{
     display: block;
-    font-family:'Leckerli One', sans-serif;
-    font-size: 600%;
+    font-family:'Courgette', sans-serif;
+    font-size: 350%;
     margin-block-start: 24px;
     margin-block-end: 24px;
     margin-inline-start: 24px;
     margin-inline-end: 24px;
     font-weight: lighter;
-    text-align: center;
-    color:#430e02;
+    text-align: left;
+    color:#010015;
 }
+
 h3{
+    display: block;
+    font-family: 'Karla', sans-serif ;
+    font-size: 200%;
+    font-weight: 700;
+    margin-block-start: 0%;
+    margin-block-end: 1%;
+    margin-inline-start: 0%;
+    margin-inline-end: 1%;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    text-align: left;
+    color:black;
+
+}
+
+h4{
     display: block;
     font-family: 'Karla', sans-serif ;
     font-size: 100%;
     font-weight: 400;
-    margin-block-start: 1%;
-    margin-block-end: 5%;
-    margin-inline-start: 5%;
-    margin-inline-end: 5%;
+    margin-block-start: 0%;
+    margin-block-end: 1%;
+    margin-inline-start: 0%;
+    margin-inline-end: 1%;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 100px;
