@@ -1,7 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
 h1{
     font-family:'Leckerli One', sans-serif;
     font-size: 600%;
@@ -44,14 +44,16 @@ h2{
 }
 h3{
     display: block;
-    font-family: Arial, Helvetica;
-    font-size: 200%;
+    font-family: 'Karla', sans-serif ;
+    font-size: 100%;
+    font-weight: 400;
     margin-block-start: 1%;
     margin-block-end: 5%;
     margin-inline-start: 5%;
-    margin-inline-end: 1%;
+    margin-inline-end: 5%;
     margin-left: 24px;
     margin-right: 24px;
+    margin-bottom: 100px;
     text-align: left;
     color:black;
 
