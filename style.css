@@ -3,51 +3,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 h1{
-    font-family:'Salsa', sans-serif;
+    font-family:'Leckerli One', sans-serif;
     font-size: 600%;
     font-weight: lighter;
     text-align: center;
     display:block;
     padding:1%;
-    color:#ea7b62;
-    text-shadow:0 0 3px #f2e74c, 0 0 2px chocolate;
+    color:#3b1911;
+    text-shadow:0 0 4px #e99144, 0 0 3px chocolate;
     margin-block-start: 0%;
     margin-block-end: 0%;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 #canape{
-    display:flow-root;
-    margin: 1% auto;
+    width: 992px;
+    height: 700px;
+    display:inline-block;
+    margin: 24px auto;
     padding: 1%;
     border-style: groove;
     border-color: beige;
     border-radius: 1px;
     box-shadow: 
-      0 5px 0    rgba(0,0,0,0.05),
-      0 10px 20px rgba(0,0,0,0.1);
+      10px 5px 5px    rgba(0,0,0,0.05),
+      20px 20px 20px rgba(0,0,0,0.1);
 }
 h2{
     display: block;
     font-family:'Leckerli One', sans-serif;
-    font-size: 700%;
-    margin-block-start: 0%;
-    margin-block-end: 0%;
-    margin-inline-start: 0%;
-    margin-inline-end: 0px;
+    font-size: 600%;
+    margin-block-start: 24px;
+    margin-block-end: 24px;
+    margin-inline-start: 24px;
+    margin-inline-end: 24px;
     font-weight: lighter;
     text-align: center;
     color:#430e02;
 }
 h3{
     display: block;
-    font-family:'Gowun Batang', sans-serif;
+    font-family: Arial, Helvetica;
     font-size: 200%;
     margin-block-start: 1%;
     margin-block-end: 5%;
     margin-inline-start: 5%;
     margin-inline-end: 1%;
-    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: left;
     color:black;
 
 }
@@ -55,4 +60,60 @@ h3{
 footer{
     position: fixed;
     bottom: 1%
+}
+
+
+
+@media screen and (max-width: 1200px){
+    h1{
+        font-size: 96px;
+    }
+
+    h2{
+        font-size: 96px;
+    }
+    #canape{
+        width: 992px;
+        height: 700px;
+    }
+    h3{
+        font-size: 32px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    h1{
+        font-size: 96px;
+    }
+
+    h2{
+        font-size: 96px;
+    }
+    #canape{
+        width:min-content;
+        height: min-content;
+    }
+    h3{
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    h1{
+        font-size: 96px;
+    }
+
+    h2{
+        font-size: 96px;
+    }
+    #canape{
+        width: 992px;
+        height: 700px;
+    }
+    h3{
+        font-size: 32px;
+    }
 }
